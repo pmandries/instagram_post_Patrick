@@ -1,0 +1,71 @@
+/* This code will create section borders
+body * {
+    border: red dashed;
+    min-height: 10px;
+}
+*/
+
+body {
+    margin: 0;
+}
+
+h1 {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+    width: 600px;
+}
+
+p {
+    padding: 10px;
+}
+
+a[href="https://4geeks.com"] {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title-bar {
+    margin: 0 auto;
+    background: White;
+    width: 100%;
+    padding: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: lightgrey;
+}
+
+.post {
+    margin: 40px auto;
+    background: white;
+    width: 600px;
+}
+
+.header {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.title-left {
+    margin: 5px;
+    width: 80%;
+}
+
+.date-right {
+    margin: 5px;
+    width: 20%;
+    color: grey;
+    text-align: center;
+}
+
